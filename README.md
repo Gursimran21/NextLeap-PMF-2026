@@ -31,4 +31,4 @@ You are the PM on the customer support team.
 
 - In case you are not sure how to go about it, need not to worry just give it an attempt. We'll discuss the case with your peers and Arindam. Make sure to join us🤗
 
-**Click on** **[Swiggy's Solution](case 1-swiggy-solution.md)**
+**Click on** **[Swiggy's Solution](solution.md)**
