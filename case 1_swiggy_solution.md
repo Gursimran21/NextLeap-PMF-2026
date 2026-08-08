@@ -213,3 +213,17 @@ Swiggy has been facing a challenge with the increasing number of customer suppor
 
       - If a new checkout flow causes a drop in conversion rates, the design team analyzes the drop-off points.
       - Testing is iterative; feedback from these A/B tests leads to continuous micro-adjustments in layout, button placement, and microcopy before a feature is rolled out to the entire user base.
+
+7. **Swiggy's PM on the Customer Support Team:**
+
+   1. **Can you estimate the number of customer support agents that Swiggy needs to have?**
+
+      **Clarifying Questions:** Before estimating staffing needs, these clarifying questions must be asked: 
+      
+        1. What is the average number of daily orders across Swiggy? 
+        2. What percentage of orders typically generate customer queries? 
+        3. What are the top categories of queries (e.g., delays, wrong items, refunds, app usability)? 
+        4. What is the average handling time (AHT) for different query types? 
+        5. What support channels are used (chat, IVR, email, in-app)? 
+        6. What SLA targets does Swiggy want to maintain (e.g., 80% queries resolved within 5 minutes)? 
+        7. What proportion of queries are currently resolved through automation/self-service?
