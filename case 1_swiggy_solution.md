@@ -206,3 +206,10 @@ Swiggy has been facing a challenge with the increasing number of customer suppor
 
       - They focus heavily on Error Prevention and User Control. For instance, allowing users to remove items directly from the restaurant menu screen without having to navigate all the way to a dedicated Cart page.  
       - They prototype UI elements like animated maps and chat interfaces, ensuring that the visual hierarchy naturally guides the user's eye to the most critical information (like the ETA or the "Reorder" button for frequent users).
+
+   5. **Test: Data-Driven Refinement**
+
+      Swiggy rarely rolls out a major design change universally. They rely heavily on A/B testing among different user segments to gather quantitative data on how a design performs.
+
+      - If a new checkout flow causes a drop in conversion rates, the design team analyzes the drop-off points.
+      - Testing is iterative; feedback from these A/B tests leads to continuous micro-adjustments in layout, button placement, and microcopy before a feature is rolled out to the entire user base.
