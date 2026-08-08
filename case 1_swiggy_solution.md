@@ -37,10 +37,32 @@ Swiggy has been facing a challenge with the increasing number of customer suppor
 
 1. **Customer Support Queries from Food Delivery:** Swiggy's food delivery from restaurants is the famous services from the convenience platform and most of the customer support queries comes from this services asking questions about the food delivery, like:
 
-   -  where is the ordered food ?, 
-   - why the food delivery person is late ?, 
-   - why any of the ordered food was missing from the ordered food ?,
-   - why food is taking time to prepare ?,
-   - why the quality of the food is low ?
+   - Where is the ordered food? 
+   - Why the food delivery person is late? 
+   - Why any of the ordered food was missing from the ordered food?
+   - Why food is taking time to prepare?
+   - Why the quality of the food is low?
   
-2. 
+2. **Customer Support Queries from Instant Grocery:** Swiggy's second instant grocery from instamart is the next services from the convenience platform, where customer support queries about the instant groceries, like:
+
+   - Why the instant grocery is taking time to deliver the grocery, if the services speaks as instant?
+   - Why any of the grocery ordered from Instamart is not included after delivering it to the customer?
+   - Why certain grocery item is not in the Instamart?
+   - Why there is no quality in the grocery item?
+   - Why there is no proper packaging of the grocery items?
+
+ 3. **Customer Support Queries from Eat Out:** Swiggy's third dine out facilities to eat out, is the third services from the convenience platform, where customer support queries about the eat out, like:
+
+    - Customer faces issues like table booking confirmation.
+    - Modifying or canceling bookings.
+    - Restaurant refusal like not accepting table booking from a particular time.
+    - Why swiggy dineout discount is not applied or not deducted from the final restaurant total?
+    - Why there is a payment failure through a digital bill payment via the app at the restaurant counter?
+ 
+ 4. **Customer Support Queries from Swiggy Scenes:** Swiggy's fourth Swiggy Scenes is an in-app feature on Swiggy, is the fourth services from the convenience platform, where customer support queries about the swiggy scenes, like:
+
+    - Customer faces issues about ticket booking & confirmation about event passes, QR codes, or confirmation details after payment.
+    - Cancellations & refunds issues of a booked event ticket or questions about refund timelines if an event is changed or cancelled.
+    - Queries regarding discount code (such as specific flash deals) which is failed to apply at checkout.
+    - Questions about event details and venue access.
+    - Queries about payment failures where money deducted from bank accounts about the event ticket booking was not successfully generated.
