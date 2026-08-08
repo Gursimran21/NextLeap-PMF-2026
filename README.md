@@ -18,14 +18,14 @@
 
 6. The product team will also need to develop a roadmap for implementing the chosen solutions. This roadmap should include specific product outcomes that are aligned with the business outcomes of reducing the number of customer support queries.
    
-#### Question:
+### Question:
 
 You are the PM on the customer support team.
 
 1. Can you estimate the number of customer support agents that Swiggy needs to have?
 2. What would be the different product outcomes that your roadmap will have?
 
-#### What's Next?
+### What's Next?
 
 - The case focuses on giving exposure to you on how products are built in real life. Make sure to give it a attempt and answer both the questions asked above before coming to session on Sunday.
 
