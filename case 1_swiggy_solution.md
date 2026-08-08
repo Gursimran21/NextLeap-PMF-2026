@@ -150,3 +150,22 @@ Swiggy has been facing a challenge with the increasing number of customer suppor
    - Number of Agents **->** Capacity of One Agent **->** Customer Support Queries based on Language **->** Hindi, English, Tamil, Malayalam, Telugu, Marathi, Gujarati, Kannada.
    - Number of Agents **->** Capacity of One Agent **->** Customer Support Queries Working Hours (Assume 8 Hours Shift) **->** 10 am to 6 pm, 6 pm to 2 pm, 2 am to 10 am.
    - Number of Agents **->** Capacity of One Agent **->** Customer Support Queries Source **->** Food Delivery, Instamart, Eat Out, Swiggy Scenes.
+  
+5. **Swiggy's Product Discovery 101:** Swiggy’s product discovery ecosystem is built to solve a massive scale problem: helping users navigate a catalog of over 50 million items across food delivery, quick commerce (Instamart), dining out (Dineout) and Swiggy Scenes.
+
+    To combat user "decision fatigue," Swiggy has evolved its discovery tools from simple keyword matching to a real-time, context-aware engine. Here is a breakdown of how their discovery architecture works:
+
+    1. **Neural Search and Conversational Intent:** Traditional search engines require users to know exactly what they want (e.g., "McDonalds" or "Chicken Biryani"). Swiggy implemented a neural search system powered by fine-tuned Large Language Models (LLMs) to handle open-ended, conversational discovery.  
+
+        - **Semantic Matching:** The system is designed to understand abstract user intent rather than just text strings. A user can search for complex preferences like "something healthy after a workout" or "vegan-friendly starters," and the AI maps that intent to specific dishes and restaurants.
+        - **Voice and NLP:** By utilizing natural language processing, the discovery engine bridges the gap between how people actually talk about food and how restaurants list their menus.
+
+    2. **Millisecond Autocomplete Ranking:** Discovery often happens before the user finishes typing. Because every keystroke triggers a new search query, Swiggy built a machine-learning ranking system optimized for extreme low-latency.  
+
+        - **Candidate Generation:** As you type, the system uses OpenSearch to instantly pull a broad set of candidate suggestions, blending traditional text-matching with embedding-based similarity (understanding that "burger" and "cheeseburger" are related).  
+        - **Real-Time Re-Ranking:** Those initial candidates are immediately passed to lightweight machine learning models (like XGBoost). This layer re-orders the suggestions based on real-time signals—such as your past click behavior, what is currently trending, and the time of day. To save crucial milliseconds, this calculation happens directly inside the search engine itself to avoid network delays.
+      
+    3. **Hyper-Local Collaborative Filtering:** Food delivery is uniquely constrained by geography and time. A highly-rated restaurant 15 kilometers away is a bad recommendation.
+
+           - **The "Cold Start" Problem:** When a brand-new user opens the app, Swiggy has no historical data on their preferences. To provide immediate value, the system uses location-aware collaborative filtering.
+           - **Neighborhood Modeling:** Instead of showing universally popular items, the algorithm analyzes what existing users in that specific micro-neighborhood are actively ordering and rating highly. This ensures new users immediately see relevant, deliverable options favored by their neighbors.
