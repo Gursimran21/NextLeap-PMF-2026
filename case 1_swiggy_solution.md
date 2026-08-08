@@ -167,8 +167,8 @@ Swiggy has been facing a challenge with the increasing number of customer suppor
       
     3. **Hyper-Local Collaborative Filtering:** Food delivery is uniquely constrained by geography and time. A highly-rated restaurant 15 kilometers away is a bad recommendation.
 
-        - The "Cold Start" Problem: When a brand-new user opens the app, Swiggy has no historical data on their preferences. To provide immediate value, the system uses location-aware collaborative filtering.
-        - Neighborhood Modeling: Instead of showing universally popular items, the algorithm analyzes what existing users in that specific micro-neighborhood are actively ordering and rating highly. This ensures new users immediately see relevant, deliverable options favored by their neighbors.
+        - **The "Cold Start" Problem:** When a brand-new user opens the app, Swiggy has no historical data on their preferences. To provide immediate value, the system uses location-aware collaborative filtering.
+        - **Neighborhood Modeling:** Instead of showing universally popular items, the algorithm analyzes what existing users in that specific micro-neighborhood are actively ordering and rating highly. This ensures new users immediately see relevant, deliverable options favored by their neighbors.
 
     4. **The Real-Time Data Foundation:** The entire discovery experience is powered by a backend designed for massive, spiky traffic—scaling rapidly from 100 to over 15,000 orders per minute during peak lunch and dinner rushes.  
 
