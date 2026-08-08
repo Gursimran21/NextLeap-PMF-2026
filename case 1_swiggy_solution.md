@@ -227,3 +227,14 @@ Swiggy has been facing a challenge with the increasing number of customer suppor
         5. What support channels are used (chat, IVR, email, in-app)? 
         6. What SLA targets does Swiggy want to maintain (e.g., 80% queries resolved within 5 minutes)? 
         7. What proportion of queries are currently resolved through automation/self-service?
+
+      **Estimating Agent Requirement:** The staffing requirement can be estimated using the following framework (without exact numbers): 
+
+        1. Total Daily Orders (X) × Query Rate (Y%) = Daily Query Volume 
+        2. Daily Query Volume ÷ Average Queries Handled per Agent per Day (Z) = Number of Agents Needed 
+        3. Adjust for peak load hours, SLA requirements, and automation/self-service contribution. 
+
+        Example (hypothetical): 
+
+        • If Swiggy processes 1M orders/day and 5% generate queries → 50K queries/day. 
+        • If one agent resolves ~200 queries/day → ~250 agents required (+ buffer).
