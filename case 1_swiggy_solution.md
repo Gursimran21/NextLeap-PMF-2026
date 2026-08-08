@@ -238,3 +238,29 @@ Swiggy has been facing a challenge with the increasing number of customer suppor
 
         1. If Swiggy processes 1M orders/day and 5% generate queries → 50K queries/day. 
         2. If one agent resolves ~200 queries/day → ~250 agents required (+ buffer).
+
+    2. **What would be the different product outcomes that your roadmap will have?**
+
+       **Swiggy's Customer Support Queries Product Proposed Roadmap:**
+
+       **Phase 1 (Quick Wins):** 
+
+         - Proactive delay notifications.
+         - Improved order tracking visibility.
+         - Standardized self-help refund/cancel flows.
+
+         **Phase 2 (Automation at Scale):** 
+
+          - AI chat-bot and NLP for query resolution. 
+          - Auto-refund for low-ticket items.
+          - ML-driven proactive compensation credits.
+
+          **Phase 3 (Long-Term Enhancements):**
+
+          - Personalized help center 
+          - Predictive issue prevention (flagging problematic restaurants/delivery partners) 
+          - Voice assistant integration for support
+
+8. **Swiggy's Mapping Business Outcomes to Product Outcomes: Swiggy's Challenge with Customer Support Queries Conclusion**
+
+    By mapping business outcomes to product outcomes, Swiggy can reduce customer support queries through prevention, automation, and faster resolution. The staffing requirement must be derived based on order volumes, query rates, and automation levels, while the roadmap ensures sustainable impact on both efficiency and customer satisfaction. 
