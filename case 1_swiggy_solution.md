@@ -173,4 +173,29 @@ Swiggy has been facing a challenge with the increasing number of customer suppor
     4. **The Real-Time Data Foundation:** The entire discovery experience is powered by a backend designed for massive, spiky traffic—scaling rapidly from 100 to over 15,000 orders per minute during peak lunch and dinner rushes.  
 
         - **Unified Lakehouse:** Swiggy funnels billions of real-time events (clicks, scrolls, orders, driver locations) into a centralized Lakehouse architecture.  
-        - **Sub-Second Streaming:** Using stream-processing tools like Apache Flink, the platform processes data with sub-second latency. This allows the discovery engine to instantly adjust. For example, if a restaurant is overwhelmed with orders or runs out of a key ingredient, the search and recommendation algorithms can dynamically deprioritize that restaurant to protect the customer experience. 
+        - **Sub-Second Streaming:** Using stream-processing tools like Apache Flink, the platform processes data with sub-second latency. This allows the discovery engine to instantly adjust. For example, if a restaurant is overwhelmed with orders or runs out of a key ingredient, the search and recommendation algorithms can dynamically deprioritize that restaurant to protect the customer experience.
+      
+6. **Swiggy's Design Thinking Process:** Swiggy’s design team relies heavily on a human-centered design thinking process to translate a massively complex logistics network into a frictionless, accessible user interface. Because food delivery is inherently time-sensitive and prone to real-world disruptions (traffic, kitchen delays), Swiggy’s design philosophy focuses heavily on minimizing customer anxiety and cognitive load.
+
+   Their methodology strictly follows the classic five-stage Design Thinking framework -
+
+   1. **Empathize: Understanding the User's Reality**
+
+      Instead of making assumptions in a boardroom, Swiggy’s UX researchers actively observe how users interact with the app in real-world scenarios, conducting user interviews and collecting feedback.
+   
+      - **Observing Emotional States:** For food delivery, the user's emotional state is often "hungry and impatient." Swiggy researched the post-order phase and discovered that the period between placing an order and its arrival was a massive source of anxiety.
+      - **Identifying Edge Cases:** When developing "Swiggy Go" (later rebranded to Swiggy Genie), researchers analyzed edge cases where users were using the service to pick up tailored clothes, buy loose groceries, or fetch forgotten keys from a friend's house. This required empathizing with open-ended, non-cataloged needs.
+
+   2. **Define: Pinpointing the Core Friction**
+
+      Once the research is gathered, the team defines the exact problems that need solving.
+
+      - **The Tracking Problem:** From their empathy research on order anxiety, they defined the problem: Users lacked real-time visibility into their order status and felt entirely unsure about wait times or delays.  
+      - **The Genie Problem:** For custom pick-ups, the problem was defined as a lack of a structured framework to capture abstract, task-specific information (e.g., "buy salt, but what brand?") that could be easily communicated to a delivery partner.
+     
+   3. **Ideate: Brainstorming Features and Flows**
+
+      With the problems defined, Swiggy's designers brainstorm features to solve them without cluttering the app.  
+
+      - **Alleviating Anxiety:** To solve order anxiety, the team ideated live driver location tracking on an interactive map, animated order progress bars, delivery partner profiles (to humanize the driver), and dynamic estimated time of arrival (ETA) updates.
+      - **The "No Cart" Checkout:** For Swiggy Genie, the team realized that a traditional e-commerce "cart" page didn't make sense for custom tasks where the final price isn't known until the driver reaches the store. They ideated a single-page flow where the user selects a store, adds custom text descriptions of the items, and checks out immediately via a bottom sheet.
