@@ -199,3 +199,10 @@ Swiggy has been facing a challenge with the increasing number of customer suppor
 
       - **Alleviating Anxiety:** To solve order anxiety, the team ideated live driver location tracking on an interactive map, animated order progress bars, delivery partner profiles (to humanize the driver), and dynamic estimated time of arrival (ETA) updates.
       - **The "No Cart" Checkout:** For Swiggy Genie, the team realized that a traditional e-commerce "cart" page didn't make sense for custom tasks where the final price isn't known until the driver reaches the store. They ideated a single-page flow where the user selects a store, adds custom text descriptions of the items, and checks out immediately via a bottom sheet.
+
+   4. **Prototype: Building the Experience**
+
+      Swiggy moves from low-fidelity paper sketches and wireframes to high-fidelity, interactive prototypes.
+
+      - They focus heavily on Error Prevention and User Control. For instance, allowing users to remove items directly from the restaurant menu screen without having to navigate all the way to a dedicated Cart page.  
+      - They prototype UI elements like animated maps and chat interfaces, ensuring that the visual hierarchy naturally guides the user's eye to the most critical information (like the ETA or the "Reorder" button for frequent users).
