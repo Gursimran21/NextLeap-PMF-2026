@@ -107,3 +107,46 @@ Swiggy has been facing a challenge with the increasing number of customer suppor
        - **Generative AI Integration:** Swiggy is embedding Gen-AI to analyze customer service interactions in real-time and provide democratized business intelligence directly to restaurant partners, helping them optimize their own internal systems based on Swiggy's macro-data.
 
 3. **Swiggy's Business Outcomes vs Product Outcomes:**
+
+   - **Swiggy's Business Outcome:** Reduce customer support queries.
+   - **Swiggy's Mapped Product Outcomes:**
+  
+   1. **Fewer Queries Raised:**
+
+           - Improve order tracking accuracy.
+           - Proactive notifications for delays/substitutions.
+           - Better menu clarity to avoid item mismatch queries. 
+
+   2. **More Queries Auto-Resolved:**
+
+           - Self-serve in-app refund/cancel flows.
+           - AI chat-bot for FAQs and triage.
+           - Auto-refunds for low-ticket issues. 
+
+   3. **Faster Query Handling:**
+
+           - Unified agent dashboard with order/customer history.
+           - Smart routing to specialized agents.
+           - Reduce average handling time. 
+
+   4. **Improved Customer Experience:**
+
+           - Higher CSAT/NPS after support interactions.
+           - Reduced wait times.
+           - More trust in self-service options.
+
+4. **Swiggy's KPI Trees for Customer Support Queries:**
+
+   - Swiggy's Customer Support Agents -> Number of Agents.
+   - Number of Agents **->** Average Number of Queries, Average Handling Time, Capacity of One Agent.
+   - Number of Agents **->** Average Number of Queries **->** Number of Percentage Orders with Queries, Number of Orders.
+   - Number of Agents **->** Average Number of Queries **->** Number of Percentage Orders with Queries **->** Food Quality, Delivery Issues, Payment Issues, Coupon Issues.
+   - Number of Agents **->** Average Number of Queries **->** Number of Percentage Orders with Queries **->** Food Quality **->** Stale Food, Quantity Issue, Less Quality
+   - Number of Agents **->** Average Number of Queries **->** Number of Percentage Orders with Queries **->** Delivery Issues **->** Late Delivery, Delivery Person Assigned but Not Moving, Delivery Person Assigned.
+   - Number of Agents **->** Average Number of Queries **->** Number of Percentage Orders with Queries **->** Payment Issues **->** Payment Failure, Deducted More than Once, Order Canceled but Refund Not Generated.
+   - Number of Agents **->** Average Number of Queries **->** Number of Percentage Orders with Queries **->** Coupon Issues **->** Coupon Not Applied, Coupon Shows Invalid.
+   - Number of Agents **->** Average Number of Queries **->** Number of Orders **->** Number of Visits, Conversion.
+   - Number of Agents **->** Capacity of One Agent **->** Customer Support Queries based on Language, Customer Support Queries Working Hours (Assume 8 Hours Shift), Customer Support Queries Source.
+   - Number of Agents **->** Capacity of One Agent **->** Customer Support Queries based on Language **->** Hindi, English, Tamil, Malayalam, Telugu, Marathi, Gujarati, Kannada.
+   - Number of Agents **->** Capacity of One Agent **->** Customer Support Queries Working Hours (Assume 8 Hours Shift) **->** 10 am to 6 pm, 6 pm to 2 pm, 2 am to 10 am.
+   - Number of Agents **->** Capacity of One Agent **->** Customer Support Queries Source **->** Food Delivery, Instamart, Eat Out, Swiggy Scenes.
