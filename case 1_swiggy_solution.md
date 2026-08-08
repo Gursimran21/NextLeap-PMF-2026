@@ -234,7 +234,7 @@ Swiggy has been facing a challenge with the increasing number of customer suppor
         2. Daily Query Volume ÷ Average Queries Handled per Agent per Day (Z) = Number of Agents Needed 
         3. Adjust for peak load hours, SLA requirements, and automation/self-service contribution. 
 
-        Example (hypothetical): 
+        **Example (hypothetical):** 
 
-        • If Swiggy processes 1M orders/day and 5% generate queries → 50K queries/day. 
-        • If one agent resolves ~200 queries/day → ~250 agents required (+ buffer).
+        1. If Swiggy processes 1M orders/day and 5% generate queries → 50K queries/day. 
+        2. If one agent resolves ~200 queries/day → ~250 agents required (+ buffer).
