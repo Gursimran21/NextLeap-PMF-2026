@@ -35,12 +35,12 @@ Swiggy's actions are strongly defined by the Swiggy values. Through ups, downs, 
 
 Swiggy has been facing a challenge with the increasing number of customer support queries. This has led to a backlog of queries and increased wait times for customers seeking assistance.
 
-1. **Customer Support Queries from Food Delivery Problem:** Swiggy's food delivery from restaurants is the famous services from the convenience platform and most of the customer support queries comes from this services asking questions about the food delivery, like:
+1. **Customer Support Queries from Food Delivery:** Swiggy's food delivery from restaurants is the famous services from the convenience platform and most of the customer support queries comes from this services asking questions about the food delivery, like:
 
--  where is the ordered food ?, 
-- why the food delivery person is late ?, 
-- why any of the ordered food was missing from the ordered food ?,
-- why food is taking time to prepare ?,
-- why the quality of the food is low ?
+   -  where is the ordered food ?, 
+   - why the food delivery person is late ?, 
+   - why any of the ordered food was missing from the ordered food ?,
+   - why food is taking time to prepare ?,
+   - why the quality of the food is low ?
   
-3. 
+2. 
