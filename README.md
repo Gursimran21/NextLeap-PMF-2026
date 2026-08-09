@@ -1,4 +1,4 @@
-# NextLeap-PMF-2026
+# NextLeap-Case-1-2026
 
 ## Case 1 : Swiggy
 
