@@ -218,7 +218,9 @@ Swiggy has been facing a challenge with the increasing number of customer suppor
 
    1. **Can you estimate the number of customer support agents that Swiggy needs to have?**
 
-      **Clarifying Questions:** Before estimating staffing needs, these clarifying questions must be asked: 
+      **Clarifying Questions:**
+
+        Before estimating staffing needs, these clarifying questions must be asked: 
       
         1. What is the average number of daily orders across Swiggy? 
         2. What percentage of orders typically generate customer queries? 
@@ -228,7 +230,9 @@ Swiggy has been facing a challenge with the increasing number of customer suppor
         6. What SLA targets does Swiggy want to maintain (e.g., 80% queries resolved within 5 minutes)? 
         7. What proportion of queries are currently resolved through automation/self-service?
 
-      **Estimating Agent Requirement:** The staffing requirement can be estimated using the following framework (without exact numbers): 
+      **Estimating Agent Requirement:**
+
+        The staffing requirement can be estimated using the following framework (without exact numbers): 
 
         1. Total Daily Orders (X) × Query Rate (Y%) = Daily Query Volume 
         2. Daily Query Volume ÷ Average Queries Handled per Agent per Day (Z) = Number of Agents Needed 
@@ -239,7 +243,7 @@ Swiggy has been facing a challenge with the increasing number of customer suppor
         1. If Swiggy processes 1M orders/day and 5% generate queries → 50K queries/day. 
         2. If one agent resolves ~200 queries/day → ~250 agents required (+ buffer).
 
-    2. **What would be the different product outcomes that your roadmap will have?**
+    3. **What would be the different product outcomes that your roadmap will have?**
 
        **Swiggy's Customer Support Queries Product Proposed Roadmap:**
 
