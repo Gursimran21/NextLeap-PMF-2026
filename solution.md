@@ -77,16 +77,16 @@ Swiggy has been facing a challenge with the increasing number of customer suppor
   
 2. **Swiggy's Systems Thinking:** Swiggy approaches food delivery not merely as a logistical task, but as a dynamic, interconnected ecosystem. By applying systems thinking, Swiggy optimizes a complex, three-sided marketplace consisting of customers, restaurant partners, and delivery executives.
 
-   Instead of viewing an order as an isolated transaction, Swiggy's architecture analyzes how every variable—from weather and kitchen prep times to user     preferences and fleet location—interacts in real-time.
+   Instead of viewing an order as an isolated transaction, Swiggy's architecture analyzes how every variable—from weather and kitchen prep times to user     preferences and fleet location - interacts in real-time.
 
    Here is a breakdown of how Swiggy applies systems thinking to its food delivery operations:
 
    1. **Controlling the End-to-End Loop:** When Swiggy launched in 2013, early competitors primarily functioned as restaurant discovery and menu aggregation platforms, leaving the actual delivery to the restaurants or  third-party logistics.
 
       - **The Systems Shift:** Swiggy realized that relying on external variables (like a restaurant's own delivery staff) broke the feedback loop and resulted in inconsistent customer experiences.
-      - **The Solution:** They built and managed their own dedicated delivery fleet. By controlling the entire system—from the moment the order is placed to the moment it reaches the door—Swiggy could gather accurate data, control delivery times, and optimize the entire supply chain.
+      - **The Solution:** They built and managed their own dedicated delivery fleet. By controlling the entire system—from the moment the order is placed to the moment it reaches the door - Swiggy could gather accurate data, control delivery times, and optimize the entire supply chain.
 
-    2. **Entity Embeddings (The Connective Tissue):** To make the system "think," Swiggy converts all entities in its ecosystem—users, delivery partners, restaurants, and individual dishes—into mathematical vectors known as "embeddings".
+    2. **Entity Embeddings (The Connective Tissue):** To make the system "think," Swiggy converts all entities in its ecosystem—users, delivery partners, restaurants, and individual dishes - into mathematical vectors known as "embeddings".
 
        - This allows their Machine Learning models to easily measure similarities and relationships between seemingly disparate nodes.
        - For example, if a user searches for a specific dish that is unavailable in their area, the system understands the contextual similarity of the embeddings to suggest the closest alternative (e.g., suggesting Chicken Fried Rice if a specific Biryani is unavailable).
@@ -163,14 +163,14 @@ Swiggy has been facing a challenge with the increasing number of customer suppor
     2. **Millisecond Autocomplete Ranking:** Discovery often happens before the user finishes typing. Because every keystroke triggers a new search query, Swiggy built a machine-learning ranking system optimized for extreme low-latency.  
 
         - **Candidate Generation:** As you type, the system uses OpenSearch to instantly pull a broad set of candidate suggestions, blending traditional text-matching with embedding-based similarity (understanding that "burger" and "cheeseburger" are related).  
-        - **Real-Time Re-Ranking:** Those initial candidates are immediately passed to lightweight machine learning models (like XGBoost). This layer re-orders the suggestions based on real-time signals—such as your past click behavior, what is currently trending, and the time of day. To save crucial milliseconds, this calculation happens directly inside the search engine itself to avoid network delays.
+        - **Real-Time Re-Ranking:** Those initial candidates are immediately passed to lightweight machine learning models (like XGBoost). This layer re-orders the suggestions based on real-time signals - such as your past click behavior, what is currently trending, and the time of day. To save crucial milliseconds, this calculation happens directly inside the search engine itself to avoid network delays.
       
     3. **Hyper-Local Collaborative Filtering:** Food delivery is uniquely constrained by geography and time. A highly-rated restaurant 15 kilometers away is a bad recommendation.
 
         - **The "Cold Start" Problem:** When a brand-new user opens the app, Swiggy has no historical data on their preferences. To provide immediate value, the system uses location-aware collaborative filtering.
         - **Neighborhood Modeling:** Instead of showing universally popular items, the algorithm analyzes what existing users in that specific micro-neighborhood are actively ordering and rating highly. This ensures new users immediately see relevant, deliverable options favored by their neighbors.
 
-    4. **The Real-Time Data Foundation:** The entire discovery experience is powered by a backend designed for massive, spiky traffic—scaling rapidly from 100 to over 15,000 orders per minute during peak lunch and dinner rushes.  
+    4. **The Real-Time Data Foundation:** The entire discovery experience is powered by a backend designed for massive, spiky traffic - scaling rapidly from 100 to over 15,000 orders per minute during peak lunch and dinner rushes.  
 
         - **Unified Lakehouse:** Swiggy funnels billions of real-time events (clicks, scrolls, orders, driver locations) into a centralized Lakehouse architecture.  
         - **Sub-Second Streaming:** Using stream-processing tools like Apache Flink, the platform processes data with sub-second latency. This allows the discovery engine to instantly adjust. For example, if a restaurant is overwhelmed with orders or runs out of a key ingredient, the search and recommendation algorithms can dynamically deprioritize that restaurant to protect the customer experience.
