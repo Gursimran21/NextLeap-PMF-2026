@@ -137,19 +137,19 @@ Swiggy has been facing a challenge with the increasing number of customer suppor
 
 4. **Swiggy's KPI Trees for Customer Support Queries:**
 
-   - Swiggy's Customer Support Agents -> Number of Agents.
-   - Number of Agents **->** Average Number of Queries, Average Handling Time, Capacity of One Agent.
-   - Number of Agents **->** Average Number of Queries **->** Number of Percentage Orders with Queries, Number of Orders.
-   - Number of Agents **->** Average Number of Queries **->** Number of Percentage Orders with Queries **->** Food Quality, Delivery Issues, Payment Issues, Coupon Issues.
-   - Number of Agents **->** Average Number of Queries **->** Number of Percentage Orders with Queries **->** Food Quality **->** Stale Food, Quantity Issue, Less Quality
-   - Number of Agents **->** Average Number of Queries **->** Number of Percentage Orders with Queries **->** Delivery Issues **->** Late Delivery, Delivery Person Assigned but Not Moving, Delivery Person Assigned.
-   - Number of Agents **->** Average Number of Queries **->** Number of Percentage Orders with Queries **->** Payment Issues **->** Payment Failure, Deducted More than Once, Order Canceled but Refund Not Generated.
-   - Number of Agents **->** Average Number of Queries **->** Number of Percentage Orders with Queries **->** Coupon Issues **->** Coupon Not Applied, Coupon Shows Invalid.
-   - Number of Agents **->** Average Number of Queries **->** Number of Orders **->** Number of Visits, Conversion.
-   - Number of Agents **->** Capacity of One Agent **->** Customer Support Queries based on Language, Customer Support Queries Working Hours (Assume 8 Hours Shift), Customer Support Queries Source.
-   - Number of Agents **->** Capacity of One Agent **->** Customer Support Queries based on Language **->** Hindi, English, Tamil, Malayalam, Telugu, Marathi, Gujarati, Kannada.
-   - Number of Agents **->** Capacity of One Agent **->** Customer Support Queries Working Hours (Assume 8 Hours Shift) **->** 10 am to 6 pm, 6 pm to 2 pm, 2 am to 10 am.
-   - Number of Agents **->** Capacity of One Agent **->** Customer Support Queries Source **->** Food Delivery, Instamart, Eat Out, Swiggy Scenes.
+   - **Swiggy's Customer Support Agents** **->** **Number of Agents.**
+   - **Number of Agents** **->** **Average Number of Queries**, **Average Handling Time**, **Capacity of One Agent.**
+   - **Number of Agents** **->** **Average Number of Queries** **->** **Number of Percentage Orders with Queries**, **Number of Orders.**
+   - **Number of Agents** **->** **Average Number of Queries** **->** **Number of Percentage Orders with Queries** **->** **Food Quality**, **Delivery Issues**, **Payment Issues**, **Coupon Issues.**
+   - **Number of Agents** **->** **Average Number of Queries** **->** **Number of Percentage Orders with Queries** **->** **Food Quality** **->** **Stale Food**, **Quantity Issue**, **Less Quality.**
+   - **Number of Agents** **->** **Average Number of Queries** **->** **Number of Percentage Orders with Queries** **->** **Delivery Issues** **->** **Late Delivery**, **Delivery Person Assigned but Not Moving**, **Delivery Person Assigned.**
+   - **Number of Agents** **->** **Average Number of Queries** **->** **Number of Percentage Orders with Queries** **->** **Payment Issues** **->** **Payment Failure**, **Deducted More than Once**, **Order Canceled but Refund Not Generated.**
+   - **Number of Agents** **->** **Average Number of Queries** **->** **Number of Percentage Orders with Queries** **->** **Coupon Issues** **->** **Coupon Not Applied**, **Coupon Shows Invalid.**
+   - **Number of Agents** **->** **Average Number of Queries** **->** **Number of Orders** **->** **Number of Visits**, **Conversion.**
+   - **Number of Agents** **->** **Capacity of One Agent** **->** **Customer Support Queries based on Language**, **Customer Support Queries Working Hours (Assume 8 Hours Shift)**, **Customer Support Queries Source.**
+   - **Number of Agents** **->** **Capacity of One Agent** **->** **Customer Support Queries based on Language** **->** **Hindi**, **English**, **Tamil**, **Malayalam**, **Telugu**, **Marathi**, **Gujarati**, **Kannada.**
+   - **Number of Agents** **->** **Capacity of One Agent** **->** **Customer Support Queries Working Hours (Assume 8 Hours Shift)** **->** **10 am to 6 pm**, **6 pm to 2 pm**, **2 am to 10 am.**
+   - **Number of Agents** **->** **Capacity of One Agent** **->** **Customer Support Queries Source** **->** **Food Delivery**, **Instamart**, **Eat Out**, **Swiggy Scenes.**
   
 5. **Swiggy's Product Discovery 101:** Swiggy’s product discovery ecosystem is built to solve a massive scale problem: helping users navigate a catalog of over 50 million items across food delivery, quick commerce (Instamart), dining out (Dineout) and Swiggy Scenes.
 
